@@ -1,0 +1,24 @@
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Cache or build artifacts (in case you later add tools like SASS)
+dist/
+.cache/
+build/
+
+# Environment files (in case you add API keys)
+.env
+.env.local
+.env.*.local
+
+# Node modules (if you later install packages for testing or linting)
+node_modules/
