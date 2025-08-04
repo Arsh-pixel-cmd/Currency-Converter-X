@@ -79,9 +79,5 @@ Run using Live Server in VS Code.
 📌 License
 This project is licensed under the MIT License.
 
-🙋‍♂️ Author
-Arsh Mishra
-GitHub: @Arsh-pixel-cmd
-
 ⭐️ If you like this project...
 Please consider giving it a ⭐️ on GitHub and sharing it with others!
