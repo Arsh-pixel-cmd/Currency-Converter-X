@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter X</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/891/891419.png">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <div class="theme-toggle">
+    <span>🌙</span>
+    <label class="switch">
+      <input type="checkbox" id="theme-switch">
+      <span class="slider round"></span>
+    </label>
+    <span>☀️</span>
+  </div>
+
+  <div class="container">
+    <h2><i class="fas fa-globe"></i> Currency Converter X</h2>
+    <form>
+      <div class="amount">
+        <p>💰 Enter Amount</p>
+        <input type="number" value="1" min="0" step="0.01">
+      </div>
+
+      <div class="dropdown">
+        <div class="from">
+          <p>🌐 From</p>
+          <div class="select-container">
+            <img src="https://flagsapi.com/US/flat/64.png" alt="Flag">
+            <select name="from"></select>
+          </div>
+        </div>
+
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+        <div class="to">
+          <p>🧭 To</p>
+          <div class="select-container">
+            <img src="https://flagsapi.com/IN/flat/64.png" alt="Flag">
+            <select name="to"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class="msg">1 USD = 80 INR</div>
+      <button type="submit"><i class="fas fa-sync-alt"></i> Get Exchange Rate</button>
+    </form>
+  </div>
+
+  <audio id="success-sound" preload="auto">
+    <source src="https://assets.mixkit.co/sfx/preview/mixkit-unlock-game-notification-253.mp3" type="audio/mpeg">
+  </audio>
+ <script src="app.js"></script>
+</body>
+</html>
