@@ -8,8 +8,7 @@
 
 - 🔄 Live exchange rate updates using Frankfurter API  
 - 🌐 Dropdowns auto-update country flags  
-- 🌓 Toggle between dark and light modes  
-- 🔊 Audio feedback on conversion  
+- 🌓 Toggle between dark and light modes   
 - 💻 Mobile-first responsive layout  
 - 🧠 Simple, clean, and intuitive interface  
 
